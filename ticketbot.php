@@ -39,7 +39,7 @@ if ($count === 0) {
 while ($row = $res->fetch_assoc()) {
     $id    = $row['id'];
     $subj  = $row['subject'];
-    $url   = "https://megaboost.com.ng/admin/tickets/view/{$id}";
+    $url   = "https://your-domain.example.com/admin/tickets/view/{$id}";
 
     echo "→ Ticket #{$id}: {$subj}\n";
 
